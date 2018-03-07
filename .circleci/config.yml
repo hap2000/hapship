@@ -34,7 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: npm run-script testcircle
+      - run: npm test
         
       - store_test_results:
           path: ./junit
