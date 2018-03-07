@@ -35,9 +35,7 @@ jobs:
         
       # run tests!
       - run: npm test
-        environment:
-            MOCHA_FILE: ./test-results.xml
-          when: always
+        
       - store_test_results:
           path: ./test-results.xml
       - store_artifacts:
