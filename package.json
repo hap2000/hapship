@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "test-circle": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./junit/test-results.xml"
+    "testcircle": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./junit/test-results.xml"
   },
   "author": "",
   "license": "ISC"
