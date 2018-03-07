@@ -8,6 +8,6 @@ describe('Mocha ', function() {
     });
 
     it('should test another mocha test', function() {
-        expect("String").to.be.equal("Sting");
+        expect("String").to.be.equal("String");
     });
 });
