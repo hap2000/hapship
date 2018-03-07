@@ -12,7 +12,8 @@
     "mocha-junit-reporter": "^1.17.0"
   },
   "scripts": {
-    "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./junit/test-results.xml"
+    "test": "mocha",
+    "test-circle": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./junit/test-results.xml"
   },
   "author": "",
   "license": "ISC"
