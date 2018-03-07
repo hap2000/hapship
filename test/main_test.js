@@ -7,5 +7,7 @@ describe('Mocha ', function() {
         expect(false).to.be.false;
     });
 
-
+    it('should test another mocha test', function() {
+        expect("String").to.be.equal("STring");
+    });
 });
